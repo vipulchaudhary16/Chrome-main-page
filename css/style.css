@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    cursor: pointer;
+}
+
+
+
+.main-page{
+    background: url("../bg.jpg") no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.nav-item{
+    padding: 0 13px;
+    padding-top: 10px;
+}
+
+.navbar a{
+    color:white;
+    padding: 0 11px;
+    margin-top: 9px;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.showcase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7.5rem;
+    
+}
+
+.showcase h1{
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.search{
+    display: grid;
+    grid-template-columns: 7% 80% 10%;
+    width: 36%;
+    padding: 12px;
+    background: white;
+    border-radius: 18px;
+    margin-bottom: 2rem;
+}
+
+.search .input input{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    line-height: 1.2rem;
+}
+
+.mic i{
+    float: right;
+}
+
+.recommend{
+    display: flex;
+}
+
+.bookmark{
+    margin: 0 40px;
+    border-radius: 25px;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.bookmark i{
+    padding: 10px 12px;
+}
+
+.mini-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-cont a{
+    color: white;
+}
+
+#edit{
+    position: absolute;
+    bottom: 26px;
+    right: 26px;
+}
+#bg-cap{
+    position: absolute;
+    bottom: 26px;
+    left: 26px;
+}
+
+#bg-cap p{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    color: white;
+}
+
+#bg-cap p a{
+    color: rgba(255, 255, 255, 0.438);
+
+}
+
+.white{
+    filter: invert(1);
+}
+
+
